@@ -3,14 +3,14 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Head from '../components/Head';
 
-const ContactPage = () => {
+const ProjectsPage = () => {
     return (
         <Layout>
-            <Head title="Contact"/>
-            <h1>Contact</h1>
-            <h2>Reach me here</h2>
+            <Head title="Projects"/>
+            <h1>My Projects</h1>
+            <h2>project...</h2>
         </Layout>
     )
 }
 
-export default ContactPage;
+export default ProjectsPage;

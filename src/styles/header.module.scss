@@ -1,17 +1,23 @@
 .header {
     padding: 1rem 0 3rem;
+    display: flex;
+}
+
+.title-container {
+    width: fit-content;
+    margin-right: auto;
 }
 
 .title {
     color: #000000;
-    font-size: 3rem;
+    font-size: 2rem;
     text-decoration: none;
 }
 
 .nav-list {
     display: flex;
     list-style-type: none;
-    margin: 0;
+    margin-top: 20px;
 }
 
 .nav-item {
@@ -27,4 +33,21 @@
 
 .active-nav-item {
     color: #333333;
+    font-weight: bold;
 }
+
+.flicker {
+    display: inline-block;
+    width: 15px;
+    height: 2rem;
+    background: #fe5186;
+    margin-left: 5px;
+    border-radius: 1px;
+    animation: flicker 1s infinite;
+}
+
+@keyframes flicker {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
