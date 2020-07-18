@@ -1,0 +1,33 @@
+.title-container {
+    text-align: center;
+}
+
+.title {
+    color: #000000;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
+.flicker {
+    display: inline-block;
+    width: 12px;
+    height: 2.5rem;
+    background: #fe5186;
+    margin-left: 5px;
+    border-radius: 1px;
+    animation: flicker 1s infinite;
+}
+
+@keyframes flicker {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+.about-text {
+    text-align: justify;
+}
+
+.section-header {
+    text-align: center;
+}

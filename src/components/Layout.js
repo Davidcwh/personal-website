@@ -4,11 +4,11 @@ import Footer from './Footer';
 import '../styles/index.scss';
 import layoutStyles from '../styles/layout.module.scss';
 
-const Layout = ({ children }) => {
+const Layout = ({ children, isHome }) => {
     return (
         <div className={layoutStyles.container}>
             <div className={layoutStyles.content}>
-                <Header/>
+                <Header isHome={isHome}/>
                 {children}
             </div>
             <Footer/>
