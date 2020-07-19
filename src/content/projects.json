@@ -1,0 +1,37 @@
+{
+    "projects": [
+        {
+            "image": "./media/picture.jpg",
+            "title": "Pathfinding Visualizer",
+            "techStack": "ReactJS, NodeJS, Redux",
+            "description": "blahblahblahblahblahblahblahblahblahblahblahblahblahblahblah",
+            "links": {
+                "github": " ",
+                "website": " ",
+                "blogPost": " "
+            }
+        },
+        {
+            "image": "./media/picture.jpg",
+            "title": "title2",
+            "techStack": "javascript, nodejs, reactjs",
+            "description": "blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah",
+            "links": {
+                "github": " ",
+                "website": " ",
+                "blogPost": " "
+            }
+        },
+        {
+            "image": "./media/picture.jpg",
+            "title": "title3",
+            "techStack": "javascript, nodejs, reactjs",
+            "description": "blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah",
+            "links": {
+                "github": " ",
+                "website": " ",
+                "blogPost": " "
+            }
+        }
+    ]
+}
