@@ -1,6 +1,8 @@
 import React from 'react';
-import { Icon } from 'semantic-ui-react'
+import { Icon } from 'semantic-ui-react';
+
 import CustomCard from './components/CustomCard';
+import CustomLink from './components/CustomLink';
 
 const getCards = (projects) => {
     return projects.map(({
@@ -25,28 +27,31 @@ const getLinks = (links) => {
 
     if(links['github']) {
         linksArray.push(
-            <a href={links['github']}>
-                <Icon name='github' />
-                Github
-            </a>
+            <CustomLink
+                iconName="github"
+                link={links['github']}
+                label="Github"
+            />
         )
     }
 
     if(links['website']) {
         linksArray.push(
-            <a href={links['website']}>
-                <Icon name='mouse pointer' />
-                Website
-            </a>
+            <CustomLink
+                iconName="external alternater"
+                link={links['website']}
+                label="Website"
+            />
         )
     }
 
-    if(links['blogPost']) {
+    if(links['learnMore']) {
         linksArray.push(
-            <a href={links['blogPost']}>
-                <Icon name='file outline' />
-                Blog Post
-            </a>
+            <CustomLink
+                iconName="file outline"
+                link={links['learnMore']}
+                label="Learn More"
+            />
         )
     }
 

@@ -1,12 +1,11 @@
 import React from 'react'
-import { Card, Icon } from 'semantic-ui-react'
+import { Card, Grid } from 'semantic-ui-react'
 
 import CustomCardStyles from '../styles/CustomCard.module.scss';
 
 const CustomCard = ({image, title, meta, description, links}) => (
   <Card className={CustomCardStyles.cardFrame}>
     <Card.Content>
-
       <Card.Header className={CustomCardStyles.cardTitle}>
         <img src={image} className={CustomCardStyles.cardImage}/>
         {title}
@@ -19,10 +18,14 @@ const CustomCard = ({image, title, meta, description, links}) => (
         <hr/>
         {description}
       </Card.Description>
-
     </Card.Content>
+
     <Card.Content extra>
-      {links}
+      <div className={CustomCardStyles.cardLinks}>
+        <Card.Group stackable>
+          {links}
+        </Card.Group> 
+      </div>
     </Card.Content>
   </Card>
 )

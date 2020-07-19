@@ -8,18 +8,18 @@
             "links": {
                 "github": " ",
                 "website": " ",
-                "blogPost": " "
+                "learnMore": " "
             }
         },
         {
             "image": "./media/picture.jpg",
-            "title": "title2",
-            "techStack": "javascript, nodejs, reactjs",
+            "title": "Scheduleh",
+            "techStack": "Java, Android Studio, Firebase",
             "description": "blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah",
             "links": {
                 "github": " ",
                 "website": " ",
-                "blogPost": " "
+                "learnMore": " "
             }
         },
         {
@@ -30,7 +30,7 @@
             "links": {
                 "github": " ",
                 "website": " ",
-                "blogPost": " "
+                "learnMore": " "
             }
         }
     ]
