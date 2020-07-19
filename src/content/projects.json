@@ -1,36 +1,33 @@
 {
     "projects": [
         {
-            "image": "./media/picture.jpg",
+            "image": "./media/pathfinding.png",
             "title": "Pathfinding Visualizer",
-            "techStack": "ReactJS, NodeJS, Redux",
-            "description": "blahblahblahblahblahblahblahblahblahblahblahblahblahblahblah",
+            "techStack": "React JS, Node JS, Redux, Create-React-App",
+            "description": "An interactive web application that helps users visualize popular uninformed and informed search algorithms in a grid environment.",
             "links": {
-                "github": " ",
-                "website": " ",
-                "learnMore": " "
+                "github": "https://github.com/Davidcwh/Pathfinding-Visualizer",
+                "website": "https://davidcwh.github.io/Pathfinding-Visualizer/"
             }
         },
         {
-            "image": "./media/picture.jpg",
+            "image": "./media/scheduleh.png",
             "title": "Scheduleh",
             "techStack": "Java, Android Studio, Firebase",
-            "description": "blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah",
+            "description": "A social schedule planning Android mobile application that aims to enable users to spend more time with family and friends.",
             "links": {
-                "github": " ",
-                "website": " ",
-                "learnMore": " "
+                "github": "https://github.com/Davidcwh/Scheduleh",
+                "learnMore": "https://www.youtube.com/watch?v=JKkEzxQJGJs&feature=youtu.be"
             }
         },
         {
-            "image": "./media/picture.jpg",
-            "title": "title3",
-            "techStack": "javascript, nodejs, reactjs",
-            "description": "blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah",
+            "image": "./media/spreent.jpg",
+            "title": "Spreent-bot",
+            "techStack": "Python, Firebase, Heroku",
+            "description": "A telegram bot that connects online shoppers to meet minimum spending for free shipping. Developed for NUS Hackers' Hack & Roll 2020.",
             "links": {
-                "github": " ",
-                "website": " ",
-                "learnMore": " "
+                "github": "https://github.com/Davidcwh/Spreent-Bot",
+                "learnMore": "https://devpost.com/software/spreent"
             }
         }
     ]

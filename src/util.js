@@ -1,5 +1,4 @@
 import React from 'react';
-import { Icon } from 'semantic-ui-react';
 
 import CustomCard from './components/CustomCard';
 import CustomLink from './components/CustomLink';
