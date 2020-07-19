@@ -24,10 +24,19 @@
             "image": "./media/spreent.jpg",
             "title": "Spreent-bot",
             "techStack": "Python, Firebase, Heroku",
-            "description": "A telegram bot that connects online shoppers to meet minimum spending for free shipping. Developed for NUS Hackers' Hack & Roll 2020.",
+            "description": "A telegram bot that connects online shoppers looking to pool their purchases in order to meet the required spending for free shipping and discounts.",
             "links": {
                 "github": "https://github.com/Davidcwh/Spreent-Bot",
                 "learnMore": "https://devpost.com/software/spreent"
+            }
+        },
+        {
+            "image": "./media/personalwebsite.png",
+            "title": "Personal Website",
+            "techStack": "React JS, Gatsby, GraphQL, Netlify",
+            "description": "This website you're on now! This personal website serves as a portfolio and blog, built using a static site generator.",
+            "links": {
+                "github": "https://github.com/Davidcwh/personal-website"
             }
         }
     ]
