@@ -5,7 +5,6 @@ import { getCards } from '../util';
 
 const CustomCardGroup = ({projects}) => {
     const cards = getCards(projects);
-    console.dir(cards)
 
     return (
         <Card.Group stackable>
