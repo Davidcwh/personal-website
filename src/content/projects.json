@@ -3,7 +3,12 @@
         {
             "image": "./media/pathfinding.png",
             "title": "Pathfinding Visualizer",
-            "techStack": "React JS, Node JS, Redux, Create-React-App",
+            "techStack": [
+                { "text": "React JS", "color": "blue" }, 
+                { "text": "Node JS", "color": "green" }, 
+                { "text": "Redux", "color": "violet" }, 
+                { "text": "Create-React-App", "color": "teal" }
+            ],
             "description": "An interactive web application that helps users visualize popular uninformed and informed search algorithms in a grid environment.",
             "links": {
                 "github": "https://github.com/Davidcwh/Pathfinding-Visualizer",
@@ -13,7 +18,11 @@
         {
             "image": "./media/scheduleh.png",
             "title": "Scheduleh",
-            "techStack": "Java, Android Studio, Firebase",
+            "techStack": [
+                { "text": "Java", "color": "red" }, 
+                { "text": "Android Studio", "color": "green" }, 
+                { "text": "Firebase", "color": "yellow" }
+            ],
             "description": "A social schedule planning Android mobile application that aims to enable users to spend more time with family and friends.",
             "links": {
                 "github": "https://github.com/Davidcwh/Scheduleh",
@@ -23,7 +32,11 @@
         {
             "image": "./media/spreent.jpg",
             "title": "Spreent-bot",
-            "techStack": "Python, Firebase, Heroku",
+            "techStack": [
+                { "text": "Python", "color": "blue" }, 
+                { "text": "Firebase", "color": "yellow" }, 
+                { "text": "Heroku", "color": "violet" }
+            ],
             "description": "A telegram bot that connects online shoppers looking to pool their purchases in order to meet the required spending for free shipping and discounts.",
             "links": {
                 "github": "https://github.com/Davidcwh/Spreent-Bot",
@@ -33,7 +46,12 @@
         {
             "image": "./media/personalwebsite.png",
             "title": "Personal Website",
-            "techStack": "React JS, Gatsby, GraphQL, Netlify",
+            "techStack": [
+                { "text": "React JS", "color": "blue" }, 
+                { "text": "Gatsby", "color": "purple" }, 
+                { "text": "GraphQL", "color": "pink" }, 
+                { "text": "Netlify", "color": "teal" }
+            ],
             "description": "This website you're on now! This personal website serves as a portfolio and blog, built using a static site generator.",
             "links": {
                 "github": "https://github.com/Davidcwh/personal-website"

@@ -57,4 +57,10 @@ const getLinks = (links) => {
     return linksArray
 }
 
-export { getCards };
+const getTags = (tags) => {
+    return tags.map(tag => {
+        return <div className={`ui ${tag.color} label`} >{tag.text}</div>
+    })
+}
+
+export { getCards, getTags };

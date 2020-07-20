@@ -1,5 +1,4 @@
 import React from 'react';
-import { Icon } from 'semantic-ui-react';
 
 import Layout from '../components/Layout';
 import Head from '../components/Head';

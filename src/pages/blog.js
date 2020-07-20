@@ -1,8 +1,7 @@
 import React from "react";
-import { Link, graphql, useStaticQuery } from 'gatsby';
+import { graphql, useStaticQuery } from 'gatsby';
 
 import Layout from '../components/Layout';
-import blogStyles from '../styles/blog.module.scss';
 import Head from '../components/Head';
 import CustomItemGroup from '../components/CustomItemGroup';
 

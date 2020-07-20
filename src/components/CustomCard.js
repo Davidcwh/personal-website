@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card } from 'semantic-ui-react'
 
+import CustomTagGroup from '../components/CustomTagGroup';
 import CustomCardStyles from '../styles/CustomCard.module.scss';
 
 const CustomCard = ({image, title, meta, description, links}) => (
@@ -13,9 +14,9 @@ const CustomCard = ({image, title, meta, description, links}) => (
 
       <Card.Description>
         <Card.Meta >
-          <span>{meta}</span>
+          <CustomTagGroup tags={meta}/>
         </Card.Meta>
-        <hr/>
+        <br/>
         {description}
       </Card.Description>
     </Card.Content>
