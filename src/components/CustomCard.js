@@ -7,7 +7,7 @@ import CustomCardStyles from '../styles/CustomCard.module.scss';
 const CustomCard = ({image, title, meta, description, links}) => (
   <Card className={CustomCardStyles.cardFrame}>
     <Card.Content>
-      <Card.Header className={CustomCardStyles.cardTitle}>
+      <Card.Header>
         <img src={image} className={CustomCardStyles.cardImage}/>
         {title}
       </Card.Header>
