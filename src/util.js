@@ -2,6 +2,7 @@ import React from 'react';
 
 import CustomCard from './components/CustomCard';
 import CustomLink from './components/CustomLink';
+import CustomItem from './components/CustomItem';
 
 const getCards = (projects) => {
     return projects.map(({
@@ -63,4 +64,18 @@ const getTags = (tags) => {
     })
 }
 
-export { getCards, getTags };
+const getExperiences = (experiences) => {
+    return experiences.map(experience => {
+        return (
+          <CustomItem
+            image={require(`${experience.image}`)}
+            company={experience.company}
+            position={experience.position}
+            startDate={experience.startDate}
+            endDate={experience.endDate}
+        />
+        )
+      })
+}
+
+export { getCards, getTags, getExperiences };

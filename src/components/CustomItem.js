@@ -1,22 +1,15 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
-import blogStyles from '../styles/blog.module.scss';
+import homeStyles from '../styles/home.module.scss';
 
-const CustomItem = ({ slug, title, date }) => {
+const CustomItem = ({ image, company, position, startDate, endDate }) => {
     return (
         <div className="item">
-            <Link className={blogStyles.post} to={`/blog/${slug}`}>
-                <div className="content">
-                    <h2 className="header">{title}</h2>
-
-                    <p>{date}</p>
-
-                    <div className="">
-                        this is a post excerpt.
-                    </div>
-                </div>
-            </Link>
+            <div className={homeStyles.companyImage}><img src={image}/></div>
+            <div className="content">
+              <p><b>{company}</b> | {position}</p>
+              <i>{startDate} - {endDate}</i>
+            </div>
         </div>
     )
 }

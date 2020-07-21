@@ -1,0 +1,11 @@
+{
+    "experience": [
+        {
+            "image": "./media/paypallogo.jpg",
+            "company": "PayPal Singapore",
+            "position": "Software Engineer Intern",
+            "startDate": "May 2020",
+            "endDate": "December 2020"
+        }
+    ]
+}

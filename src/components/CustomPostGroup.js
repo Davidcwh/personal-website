@@ -1,13 +1,13 @@
 import React from 'react';
 import {  Item } from 'semantic-ui-react';
 
-import CustomItem from './CustomItem';
+import CustomPost from './CustomPost';
 
-const CustomItemGroup = ({ edges }) => (
+const CustomPostGroup = ({ edges }) => (
   <Item.Group divided>
     {edges.map(edge => {
         return (
-            <CustomItem
+            <CustomPost
                 slug={edge.node.slug}
                 title={edge.node.title}
                 date={edge.node.publishedDate}
@@ -17,4 +17,4 @@ const CustomItemGroup = ({ edges }) => (
   </Item.Group>
 )
 
-export default CustomItemGroup;
+export default CustomPostGroup;

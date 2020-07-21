@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 
 import Layout from '../components/Layout';
 import Head from '../components/Head';
-import CustomItemGroup from '../components/CustomItemGroup';
+import CustomPostGroup from '../components/CustomPostGroup';
 
 const BlogPage = () => {
     const data = useStaticQuery(graphql`
@@ -29,7 +29,7 @@ const BlogPage = () => {
         <Layout>
             <Head title="Blog"/>
             <h1>Blog</h1>
-            <CustomItemGroup edges={data.allContentfulBlogPost.edges} />  
+            <CustomPostGroup edges={data.allContentfulBlogPost.edges} />  
         </Layout>
     )
 }

@@ -5,8 +5,11 @@ import Layout from '../components/Layout';
 import Head from '../components/Head';
 import Title from '../components/Title';
 import homeStyles from '../styles/home.module.scss';
+import { getExperiences } from '../util';
 
 const IndexPage = () => {
+  const experiences = getExperiences(require('../content/experience.json').experience)
+
   return (
     <Layout isHome={true}>
       <Head title="About Me"/>
@@ -27,7 +30,9 @@ const IndexPage = () => {
         <br/>
 
         <h2>Experience</h2>
-        <p><b>PayPal Singapore</b> | Software Engineer Intern<br/><i>May 2020 - December 2020</i></p>
+        <div className="ui divided unstackable items">
+          {experiences}
+        </div>
         
         <br/>
 
