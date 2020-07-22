@@ -27,7 +27,6 @@ const CustomCard = ({image, title, meta, description, links}) => {
           <Card.Meta >
             <CustomTagGroup tags={meta} size={image ? "mini" : null}/>
           </Card.Meta>
-          {description ? <br/> : null}
           {description}
         </Card.Description>
       </Card.Content>

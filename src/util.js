@@ -3,6 +3,7 @@ import React from 'react';
 import CustomCard from './components/CustomCard';
 import CustomLink from './components/CustomLink';
 import CustomItem from './components/CustomItem';
+import CustomTag from './components/CustomTag';
 
 const getCards = (projects) => {
     return projects.map(({
@@ -59,8 +60,8 @@ const getLinks = (links) => {
 }
 
 const getTags = (tags) => {
-    return tags.map(tag => {
-        return <div className={`ui ${tag.color} label`} >{tag.text}</div>
+    return tags.map(({ color, text }) => {
+        return <CustomTag color={color} text={text} />
     })
 }
 
