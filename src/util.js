@@ -13,11 +13,11 @@ const getCards = (projects) => {
         links
     }) => {
         return <CustomCard 
-            image={require(`${image}`)} 
+            image={image ? require(`${image}`) : null} 
             title={title} 
             description={description}
             meta={techStack}
-            links={getLinks(links)}
+            links={links ? getLinks(links) : null}
             />
     });
 }

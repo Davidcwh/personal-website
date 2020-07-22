@@ -11,7 +11,7 @@ const ProjectsPage = () => {
         <Layout>
             <Head title="Projects"/>
             <h1>My Projects</h1>
-            <CustomCardGroup projects={projects}/>
+            <CustomCardGroup cards={projects}/>
         </Layout>
     )
 }

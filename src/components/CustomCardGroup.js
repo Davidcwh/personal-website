@@ -3,12 +3,12 @@ import { Card } from 'semantic-ui-react';
 
 import { getCards } from '../util';
 
-const CustomCardGroup = ({projects}) => {
-    const cards = getCards(projects);
+const CustomCardGroup = ({ cards }) => {
+    const processedCards = getCards(cards);
 
     return (
         <Card.Group stackable>
-            {cards}
+            {processedCards}
         </Card.Group>
     )
 }

@@ -1,0 +1,100 @@
+{
+    "skills": [
+        {
+            "title": "Languages",
+            "techStack": [
+                {
+                    "image": "./media/javascript.png",
+                    "text": "Javascript",
+                    "color": "yellow"
+                },
+                {
+                    "image": "./media/java.png",
+                    "text": "Java",
+                    "color": "red"
+                },
+                {
+                    "image": "./media/python.png",
+                    "text": "Python",
+                    "color": "blue"
+                },
+                {
+                    "image": "./media/c.png",
+                    "text": "C",
+                    "color": "teal"
+                }
+            ]
+        },
+        {
+            "title": "Web Developement",
+            "techStack": [
+                {
+                    "image": "./media/node.jpg",
+                    "text": "Node JS",
+                    "color": "green"
+                },
+                {
+                    "image": "./media/express.png",
+                    "text": "Express JS",
+                    "color": "grey"
+                },
+                {
+                    "image": "./media/react.jpg",
+                    "text": "React Js",
+                    "color": "blue"
+                },
+                {
+                    "image": "./media/redux.png",
+                    "text": "Redux",
+                    "color": "violet"
+                },
+                {
+                    "image": "./media/gatsby.png",
+                    "text": "Gatsby",
+                    "color": "purple"
+                }
+            ]
+        },
+        {
+            "title": "Mobile Developement",
+            "techStack": [
+                {
+                    "image": "./media/android.jpg",
+                    "text": "Java",
+                    "color": "red"
+                },
+                {
+                    "image": "./media/android.jpg",
+                    "text": "Android Studio",
+                    "color": "green"
+                },
+                {
+                    "image": "./media/firebase.jpg",
+                    "text": "Firebase",
+                    "color": "yellow"
+                }
+            ]
+        },
+        {
+            "title": "Others",
+            "techStack": [
+                {
+                    "image": "./media/git.png",
+                    "text": "Git",
+                    "color": "red"
+                },
+                {
+                    "image": "./media/cicd.png",
+                    "text": "CI/CD",
+                    "color": "brown"
+                },
+                {
+                    "image": "./media/agile.jpg",
+                    "text": "Agile Development",
+                    "color": "yellow"
+                }
+            ]
+        }
+        
+    ]
+}

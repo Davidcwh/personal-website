@@ -1,6 +1,7 @@
 import React from 'react';
-import CustomAccordion from '../components/CustomAccordion';
 
+import CustomAccordion from '../components/CustomAccordion';
+import CustomCardGroup from '../components/CustomCardGroup';
 import Layout from '../components/Layout';
 import Head from '../components/Head';
 import Title from '../components/Title';
@@ -8,7 +9,8 @@ import homeStyles from '../styles/home.module.scss';
 import { getExperiences } from '../util';
 
 const IndexPage = () => {
-  const experiences = getExperiences(require('../content/experience.json').experience)
+  const experiences = getExperiences(require('../content/experience.json').experience);
+  const skills = require('../content/skills.json').skills;
 
   return (
     <Layout isHome={true}>
@@ -22,12 +24,9 @@ const IndexPage = () => {
         <hr/>
 
         <h2>Technical Skills</h2>
-        <p><b>Languages:</b> Javascript, Java, Python, C</p>
-        <p><b>Web Development:</b> NodeJS, ExpressJS, ReactJs, Redux, Gatsby</p>
-        <p><b>Mobile Development:</b> Android Studio (Java), Firebase</p>
-        <p><b>Others:</b> Continous Integration/Continous Delivery, Agile Development, Git</p>
+        <CustomCardGroup cards={skills}/>
 
-        <br/>
+        <br/><br/>
 
         <h2>Experience</h2>
         <div className="ui divided unstackable items">
