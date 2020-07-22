@@ -11,6 +11,7 @@ const CustomPostGroup = ({ edges }) => (
                 slug={edge.node.slug}
                 title={edge.node.title}
                 date={edge.node.publishedDate}
+                excerpt={edge.node.excerpt.excerpt}
             />
         )
     })}
