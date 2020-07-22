@@ -18,9 +18,9 @@ const CustomCard = ({image, title, meta, description, links}) => {
   return (
     <Card fluid={!image} className={CustomCardStyles.cardFrame}>
       <Card.Content>
-        <Card.Header>
+        <Card.Header headerFont>
           {image ? <img src={image} className={CustomCardStyles.cardImage}/> : null}
-          {title}
+          <div className="headerFont">{title}</div>
         </Card.Header>
 
         <Card.Description>

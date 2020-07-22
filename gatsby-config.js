@@ -35,6 +35,15 @@ module.exports = {
           }
         ]
       }
+    },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["Poppins", "OpenSans"],
+          urls: ["/fonts/fonts.css"]
+        }
+      }
     }
   ],
 }

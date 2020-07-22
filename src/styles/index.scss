@@ -202,7 +202,7 @@ html {
   }
   body {
     color: hsla(0, 0%, 0%, 0.8);
-    font-family: sans-serif;
+    font-family: "OpenSans";
     font-weight: normal;
     word-wrap: break-word;
     font-kerning: normal;
@@ -232,8 +232,7 @@ html {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: "Poppins";
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 2.25rem;
@@ -249,8 +248,7 @@ html {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: "Poppins";
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 1.62671rem;
@@ -266,8 +264,7 @@ html {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: "Poppins";
     font-weight: bold;
     text-rendering: optimizeLegibility;
     font-size: 1.38316rem;
@@ -622,3 +619,8 @@ html {
       font-size: 100%;
     }
   }
+
+.headerFont {
+  font-family: "Poppins";
+  padding: 5px;
+} 
