@@ -44,7 +44,7 @@
             }
         },
         {
-            "image": "./media/personalwebsite.png",
+            "image": "./media/personalwebsite2.png",
             "title": "Personal Website",
             "techStack": [
                 { "text": "React JS", "color": "blue" }, 
