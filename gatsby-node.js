@@ -20,9 +20,29 @@ module.exports.createPages = async ({ graphql, actions }) => {
     const blogTemplate = path.resolve('./src/templates/blog.js')
     const res = await graphql(`
         query {
-            allContentfulBlogPost {
+            allContentfulBlogPost (
+                sort: {
+                    fields:publishedDate,
+                    order:ASC
+                }
+            ) {
                 edges {
                     node {
+                        title
+                        slug
+                        publishedDate(formatString:"MMMM Do, YYYY")
+                        excerpt {
+                            excerpt
+                        }
+                    }
+
+                    next {
+                        title
+                        slug
+                    }
+
+                    previous {
+                        title
                         slug
                     }
                 }
@@ -35,7 +55,9 @@ module.exports.createPages = async ({ graphql, actions }) => {
             component: blogTemplate,
             path: `/blog/${edge.node.slug}`,
             context: {
-                slug: edge.node.slug
+                slug: edge.node.slug,
+                next: edge.next,
+                previous: edge.previous
             }
         })
     })

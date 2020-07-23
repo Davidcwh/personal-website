@@ -4,6 +4,7 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 
 import Layout from '../components/Layout';
 import Head from '../components/Head';
+import Navigation from '../components/Navigation';
 
 export const query = graphql`
     query($slug: String!) {
@@ -33,6 +34,12 @@ const Blog = (props) => {
             <h1>{props.data.contentfulBlogPost.title}</h1>
             <p>{props.data.contentfulBlogPost.publishedDate}</p>
             {documentToReactComponents(props.data.contentfulBlogPost.body.json, options)}
+            <Navigation
+                nextPath={props.pageContext.next && props.pageContext.next.slug}
+                nextLabel={props.pageContext.next && props.pageContext.next.title}
+                previousPath={props.pageContext.previous && props.pageContext.previous.slug}
+                previousLabel={props.pageContext.previous && props.pageContext.previous.slug}
+                />
         </Layout>
     )
 }
