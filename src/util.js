@@ -14,6 +14,7 @@ const getCards = (projects) => {
         links
     }) => {
         return <CustomCard 
+            key={title}
             image={image ? require(`${image}`) : null} 
             title={title} 
             description={description}
@@ -29,6 +30,7 @@ const getLinks = (links) => {
     if(links['github']) {
         linksArray.push(
             <CustomLink
+                key={links['github']}
                 iconName="github"
                 link={links['github']}
                 label="Github"
@@ -39,7 +41,8 @@ const getLinks = (links) => {
     if(links['website']) {
         linksArray.push(
             <CustomLink
-                iconName="external alternater"
+                key={links['website']}
+                iconName="external alternate"
                 link={links['website']}
                 label="Website"
             />
@@ -49,6 +52,7 @@ const getLinks = (links) => {
     if(links['learnMore']) {
         linksArray.push(
             <CustomLink
+                key={links['learnMore']}
                 iconName="file outline"
                 link={links['learnMore']}
                 label="Learn More"
@@ -61,7 +65,7 @@ const getLinks = (links) => {
 
 const getTags = (tags) => {
     return tags.map(({ color, text }) => {
-        return <CustomTag color={color} text={text} />
+        return <CustomTag key={text} color={color} text={text} />
     })
 }
 
@@ -69,6 +73,7 @@ const getExperiences = (experiences) => {
     return experiences.map(experience => {
         return (
           <CustomItem
+            key={experience.company + experience.position}
             image={require(`${experience.image}`)}
             company={experience.company}
             position={experience.position}

@@ -36,7 +36,7 @@ const IndexPage = () => {
         <br/>
 
         <h2>Resume</h2>
-        <CustomAccordion title="Resume" content={<iframe src="https://drive.google.com/file/d/1LX7YGTBX3h_FDlB6rIxiBouFF7x4yobk/preview" width="1000" height="1200"></iframe>}/>
+        <CustomAccordion title="Resume" content={<iframe src="https://drive.google.com/file/d/1LX7YGTBX3h_FDlB6rIxiBouFF7x4yobk/preview" width="1000" height="1200" title="resume"></iframe>}/>
         
       </div>
      
