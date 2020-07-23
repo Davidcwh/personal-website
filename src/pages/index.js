@@ -18,7 +18,7 @@ const IndexPage = () => {
       <Title styles={homeStyles}/>
       <hr/>
       <div className={homeStyles.aboutText}>
-        <p>Currently a second year Computer Science undergraduate at National University of Singapore. Beyond being a highly movitated and independent learner, I'm passionate about applying my skills and knowledge to solving real life problems.</p>
+        <p>Currently a third year Computer Science undergraduate at National University of Singapore. Beyond being a highly movitated and independent learner, I'm passionate about applying my skills and knowledge to solving real life problems.</p>
         <p>In addition to showcasing my personal projects, this website is an outlet for me to document and reflect on the skills, concepts and technologies I have learned in my journey of being a fullstack software engineer.</p>
         
         <hr/>
